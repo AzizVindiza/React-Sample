@@ -10,13 +10,19 @@ const Header = () => {
                 <div className="header__logo">
                     <img src={logo} alt="Future Academy"/>
                 </div>
-                <nav className="header__nav">
-                    <NavLink className="header__links-item" to="/reg">About Us</NavLink>
-                    <NavLink className="header__links-item" to="/contact-us">Contact Us</NavLink>
-                    <NavLink className="header__links-item" to="/portfolio">Portfolio</NavLink>
-                    <NavLink className="header__links-item" to="/videos">Videos</NavLink>
-                    <NavLink className="header__links-item" to="/book-now">Book Now</NavLink>
-                </nav>
+                <div className="header__hamburger">
+
+                </div>
+                <div className="header__menu">
+                    <nav className="header__nav">
+                        <NavLink className="header__links-item" to="/reg">About Us</NavLink>
+                        <NavLink className="header__links-item" to="/contact-us">Contact Us</NavLink>
+                        <NavLink className="header__links-item" to="/portfolio">Portfolio</NavLink>
+                        <NavLink className="header__links-item" to="/videos">Videos</NavLink>
+                        <NavLink className="header__links-item" to="/book-now">Book Now</NavLink>
+                    </nav>
+                </div>
+
             </div>
 
 
